@@ -8,9 +8,9 @@
 
 #include "multiply.h"
 
-int main(int argc, char **argv)
+int main(int arg, char **argv)
 {
-	if (argc != 3)
+	if (arg != 3)
 	{
 		printf("Wrong parameters.\n");
 		printf("Usage: multiply <first_factor> <second_factor>\n");
